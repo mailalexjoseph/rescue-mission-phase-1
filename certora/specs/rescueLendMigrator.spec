@@ -26,6 +26,7 @@ invariant LendIsBackedByAave()
         }
     }
 
+
 // // All the LEND that wasn’t sent for swap in the migrator must be fully collateralised with AAVE
 // rule LendIsBackedByAave(env e, method f){
 //     require e.msg.sender != LEND1;
